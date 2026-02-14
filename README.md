@@ -1,4 +1,4 @@
-# George
+# Portfolio
 > Live demo [_here_](http://3gbg.s3-website.eu-west-2.amazonaws.com/#intro). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
