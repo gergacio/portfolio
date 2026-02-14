@@ -1,31 +1,35 @@
+import { Button } from "@/components/Button"
+
 const navLinks = [
-    { href: "♯hero", label: "Hero" },
+  
     { href: "♯about", label: "About" },
     { href: "♯projects", label: "Projects" },
     { href: "♯experience", label: "Experience" },
     { href: "♯testimonials", label: "Testimonials" },
-    { href: "♯contact", label: "Contact" },
+
 
 ]
 
 export const Navbar = () => { 
     return (
-        <header>
-            <nav>
-                <a>
-                    GG<span>.</span>
+        <header className="fixed-top-0 left-0 right-0 bg:transparent py-5">
+            <nav className="container mx-auto px-6 flex center-items justify-between">
+                <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
+                    GG<span className="text-primary">.</span>
                 </a>
 
-                <div>
-                    <div>
-                        {navLinks.map(link => (
-                            <a key={link.label} href={link.href}>
+                <div className="flex items-center gap-1">
+                    <div className="glass rounded-full px-2 py-1 flex items-center gap-1">
+                        {navLinks.map((link, index) => (
+                            <a key={index} href={link.href} className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
                                 {link.label}
                             </a>
                         ))}
                     </div>
 
                 </div>
+
+                <div><Button size="sm">Contact Me</Button></div>
             </nav>
         </header>
     )
