@@ -57,7 +57,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hello, my name is Georgi. I am a Computer Systems graduate.
+                Hello, my name is Georgi. I am a Computer technology graduate.
               </p>
              </div>
 

@@ -51,17 +51,11 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a software engineer with passion about teaching.
-                
+                 I'm a software engineer with passion about teaching.    
               </p>
               <p>
-                
-              </p>
-            
-           
+              </p>       
             </div>
-
-          
           </div>
 
           {/* Right Column - Hilights */}
