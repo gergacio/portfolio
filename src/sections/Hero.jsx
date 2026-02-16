@@ -2,9 +2,21 @@ import { Button } from "@/components/button";
 import { ArrowRight, ChevronDown ,Github, Linkedin } from "lucide-react";
 
 const skills = [
+    "",
+    "•",
+    "",
     "Operating systems",
-      "Computer networks",
-       "Web development",
+    "",
+    "•",
+       "",
+    "Computer networks",
+    "",
+    "•",
+       "",
+    "Web development",
+    "",
+    "•",
+       "",
        "Cloud computing",
      
 ];
@@ -45,7 +57,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm George. I am a Computer Systems graduate.
+                Hello, my name is Georgi. I am a Computer Systems graduate.
               </p>
              </div>
 
@@ -138,15 +150,18 @@ export const Hero = () => {
                   </span>
                 </div>
               ))}
-            </div>
+              </div>
+              <p>___</p>
+                            <p>___</p>
           </div>
         </div>
             </div>
-            
+            <div></div>
                   <div
         className="absolute bottom-8 left-1/2 -translate-x-1/2 
       animate-fade-in animation-delay-800"
-      >
+        >
+          
         <a
           href="#about"
           className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
@@ -157,7 +172,7 @@ export const Hero = () => {
       </div>
                 
             
-            
+       
 
 
             
