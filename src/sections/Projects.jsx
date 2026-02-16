@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Watermelon",
     description:
-      "Educational platform for students and teachers.",
+      "Digital learning hub for students and teachers.",
     image: "/w.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
@@ -43,7 +43,7 @@ export const Projects = () => {
             Projects with 
             <span className="font-serif italic font-normal text-white">
               {" "}
-              human-centric impact.
+              people-oriented impact.
             </span>
                   </h2>
                   <p></p>

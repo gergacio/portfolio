@@ -2,23 +2,41 @@ import { Button } from "@/components/button";
 import { ArrowRight, ChevronDown ,Github, Linkedin } from "lucide-react";
 
 const skills = [
-    "",
-    "•",
-    "",
-    "Operating systems",
-    "",
-    "•",
-       "",
-    "Computer networks",
-    "",
-    "•",
-       "",
-    "Web development",
-    "",
-    "•",
-       "",
-       "Cloud computing",
-     
+  "•",
+  "React",
+  "•",
+  "JS",
+  "•",
+  "Node.js",
+  "•",
+  "MySQL",
+  "•",
+  "PostgreSQL",
+  "•",
+  "MongoDB",
+  "•",
+  "Redis",
+  "•",
+  "Docker",
+  "•",
+  "AWS",
+  "•",
+  "Vercel",
+  "•",
+  "Tailwind CSS",
+  "•",
+  "Prisma",
+  "•",
+  "Jest",
+  "•",
+  "Cypress",
+  "•",
+  "Figma",
+  "•",
+  "Git",
+ "•", 
+  "GitHub Actions",
+    "•", 
 ];
 
 export const Hero = () => {
@@ -41,23 +59,23 @@ export const Hero = () => {
                         <div className="animate fade-in">
                             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                              <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                                Information Technology • Software Engineering
+                                Information Technology • Computer science
                             </span>
                              
                         </div>
                             {/* Headline */}
             <div className="space-y-5">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+                Engineering <span className="text-primary glow-text">digital</span>
                 <br />
-                experiences with
+                products with
                 <br />
                 <span className="font-serif italic font-normal text-white">
                   precision.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hello, my name is Georgi. I am a Computer technology graduate.
+                Hello, my name is Georgi. I am a Computer systems graduate.
               </p>
              </div>
 
@@ -101,11 +119,11 @@ export const Hero = () => {
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-3xl p-6 glow-border">
+              <div className="relative glass rounded-2xl p-7 glow-border">
                 <img
                   src="/me.jpg"
                   alt="Georgi Georgiev "
-                  className="w-11/12 aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
                 {/* Floating Badge */}
@@ -129,34 +147,9 @@ export const Hero = () => {
           </div>
                 </div>
                     {/* Skills Section */}
-        <div className="mt-20 animate-fade-in animation-delay-600">
-          <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
-          </p>
-          <div className="relative overflow-hidden">
-            <div
-              className="absolute left-0 top-0 bottom-0 w-32
-             bg-gradient-to-r from-background to-transparent z-10"
-            />
-            <div
-              className="absolute right-0 top-0 bottom-0 w-32
-             bg-gradient-to-l from-background to-transparent z-10"
-            />
-            <div className="flex animate-marquee">
-              {[...skills, ...skills].map((skill, idx) => (
-                <div key={idx} className="flex-shrink-0 px-8 py-4">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                    {skill}
-                  </span>
-                </div>
-              ))}
-              </div>
-              <p>___</p>
-                            <p>___</p>
-          </div>
-        </div>
+         
             </div>
-            <div></div>
+            
                   <div
         className="absolute bottom-8 left-1/2 -translate-x-1/2 
       animate-fade-in animation-delay-800"
