@@ -90,8 +90,9 @@ export const Hero = () => {
                                <span className="text-sm text-muted-foreground">Follow me: </span>
              
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Github, href: "https://github.com/gergacio", target: "_blank", rel: "noopener noreferrer" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/gggbg/", target: "_blank", rel: "noopener noreferrer" },
+               
              
               ].map((social, idx) => (
                 <a
@@ -119,7 +120,7 @@ export const Hero = () => {
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-2xl p-7 glow-border">
+              <div className="relative glass rounded-3xl p-7 glow-border">
                 <img
                   src="/me.jpg"
                   alt="Georgi Georgiev "
@@ -129,7 +130,7 @@ export const Hero = () => {
                 {/* Floating Badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                   <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">
                       Available for work
                     </span>

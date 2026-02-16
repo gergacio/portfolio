@@ -49,12 +49,11 @@ export const About = () => {
               </span>
             </h2>
 
-            <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
+            <div className="space-y-10 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
                  I'm a software engineer with passion about teaching.    
               </p>
-              <p>
-              </p>       
+         
             </div>
           </div>
 
