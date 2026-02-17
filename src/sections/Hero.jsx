@@ -75,8 +75,9 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hello, my name is Georgi. I am a Computer systems graduate.
-              </p>
+               Hello, my name is Georgi. I run <a href="#projects" className="text-foreground glow-text hover:text-primary">Watermelon.</a>
+                </p>
+                
              </div>
 
                             {/* CTAs */}

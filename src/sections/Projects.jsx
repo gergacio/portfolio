@@ -5,7 +5,7 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
 
   {
-    title: "Watermelon",
+    title: "Watermelon.",
     description:
       "Digital learning hub for students and teachers.",
     image: "/w.png",
