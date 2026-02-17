@@ -46,7 +46,7 @@ export const Experience = () => {
             Learning, growth {" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-            and development
+            and development.
             </span>
           </h2>
 

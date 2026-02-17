@@ -33,7 +33,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-italic tracking-tight   "
         >
-          ПГБТ
+          П|Г|Б|Т
         </a>
 
         {/* Desktop Nav */}
