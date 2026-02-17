@@ -6,9 +6,9 @@ const projects = [
   {
     title: "Watermelon.",
     description:
-      "Digital learning hub for students and teachers.",
+      "Digital learning hub.",
     image: "/w.png",
-    tags: ["Mathematics", "Computer Science", "Information Technology"],
+    tags: ["Mathematics", "Physics", "Computer Science"],
     link: "#",
     github: "#",
     },
