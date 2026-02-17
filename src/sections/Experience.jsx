@@ -43,10 +43,10 @@ export const Experience = () => {
            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Learning growth.{" "}
+            Learning, growth {" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-            Learning experience.
+            and development
             </span>
           </h2>
 

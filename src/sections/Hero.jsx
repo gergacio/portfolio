@@ -83,27 +83,10 @@ export const Hero = () => {
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
            
               
-                        </div>
+                 </div>
                         
-                                {/* Social Links */}
-                        <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-                               <span className="text-sm text-muted-foreground">Follow me: </span>
-             
-              {[
-                { icon: Github, href: "https://github.com/gergacio", target: "_blank", rel: "noopener noreferrer" },
-                  { icon: Linkedin, href: "https://www.linkedin.com/in/gggbg/", target: "_blank", rel: "noopener noreferrer" },
-               
-             
-              ].map((social, idx) => (
-                <a
-                  key={idx}
-                  href={social.href}
-                  className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
-                >
-                  {<social.icon className="w-5 h-5" />}
-                </a>
-              ))}
-            </div>
+                                
+         
                         
 
                     </div>
@@ -120,7 +103,7 @@ export const Hero = () => {
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-3xl p-7 glow-border">
+              <div className="relative glass rounded-sm p-6 glow-border">
                 <img
                   src="/me.jpg"
                   alt="Georgi Georgiev "
