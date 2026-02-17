@@ -8,7 +8,7 @@ const projects = [
     description:
       "Digital learning hub for students and teachers.",
     image: "/w.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["Mathematics", "Computer Science", "Information Technology"],
     link: "#",
     github: "#",
     },
