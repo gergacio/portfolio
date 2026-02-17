@@ -1,7 +1,7 @@
-import { Button } from "@/components/button";
-import { ArrowRight, ChevronDown ,Github, Linkedin } from "lucide-react";
 
-const skills = [
+import { ChevronDown  } from "lucide-react";
+
+/*const skills = [
   "•",
   "React",
   "•",
@@ -37,7 +37,7 @@ const skills = [
  "•", 
   "GitHub Actions",
     "•", 
-];
+];8?*/
 
 export const Hero = () => {
     return (
@@ -100,7 +100,7 @@ export const Hero = () => {
             <div className="relative max-w-md mx-auto">
               <div
                 className="absolute inset-0 
-              rounded-3xl bg-gradient-to-br 
+              rounded-3xl bg-linear-to-br 
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
@@ -108,7 +108,7 @@ export const Hero = () => {
                 <img
                   src="/me.jpg"
                   alt="Georgi Georgiev "
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
 
                 {/* Floating Badge */}
